@@ -85,7 +85,7 @@ class WindowClass(QMainWindow, form_class):
         
     def loadFile(self):
         filename = QFileDialog.getOpenFileName(self, 'Open file', '',
-                                        'Image File(*.png *.jpg, *jpeg);; All File(*)')[0]        
+                                        'Image File(*.png *.jpg *jpeg);; All File(*)')[0]        
         if not filename == '':
             self.input_img = filename
         self.show_input_image()
@@ -93,7 +93,7 @@ class WindowClass(QMainWindow, form_class):
         
     def saveFile(self):
         save_img_name = QFileDialog.getSaveFileName(self, 'Save File', '',
-                                        'Image File(*.png *.jpg, *jpeg);; All File(*)')[0]
+                                        'Image File(*.png *.jpg *jpeg);; All File(*)')[0]
         if not save_img_name == '':
             pixel_img = img2pixel.img2pixel(self.input_img, self.size/100, self.colors)
             plt.imsave(save_img_name, pixel_img)
