@@ -21,4 +21,4 @@ Download Link: https://drive.google.com/file/d/1NKKwOYOoJcfVydooEUc3kz0mFBI9DKB3
 </br>
 ![image](https://user-images.githubusercontent.com/60418809/133888661-d4bda5e6-cc8d-4663-b5b0-e1d18836b363.png)
 
-여담: pyinstaller에서 matplotlib를 사용한 코드를 빌드하려면 오류가 났다. 알고보니 파이썬에 설치되어있는 pathlib이란 녀석을 삭제해주면 문제가 없더라. 뭔가 충수꼬리같은 라이브러리 같다.
+여담: pyinstaller에서 matplotlib를 사용한 코드를 빌드하려고 하니 오류가 났다. 알고보니 파이썬에 설치되어있는 pathlib이란 녀석을 삭제해주면 문제가 없더라. 뭔가 충수꼬리같은 라이브러리 같다.
