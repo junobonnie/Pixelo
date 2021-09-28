@@ -61,11 +61,13 @@ class WindowClass(QMainWindow, form_class):
         self.lbl_img = QLabel()
         self.lbl_img.setAlignment(Qt.AlignCenter)
         pixmap = QPixmap(self.input_img)
+        pixmap = pixmap.scaledToWidth(512, Qt.SmoothTransformation)
         self.lbl_img.setPixmap(pixmap)
         self.graph_verticalLayout_0.addWidget(self.lbl_img)
 
     def show_input_image(self):
         pixmap = QPixmap(self.input_img)
+        pixmap = pixmap.scaledToWidth(512, Qt.SmoothTransformation)
         self.lbl_img.setPixmap(pixmap)
         #self.graph_verticalLayout_0.addWidget(self.lbl_img)
         

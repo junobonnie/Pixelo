@@ -17,6 +17,9 @@ def img2pixel(inputFile, img_size_ratio, colors = 7):
     img = cv2.cvtColor(imgo, cv2.COLOR_BGR2LAB)
     #print(img.shape)
     H, W = img.shape[0], img.shape[1]
+    if W > 512:
+        H = int(H/W*512)
+        W = 512
     img=cv2.resize(img,(int(W*img_size_ratio), int(H*img_size_ratio)),cv2.INTER_CUBIC)
     #plt.imshow(imgo)
     #plt.show()
