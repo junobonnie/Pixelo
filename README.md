@@ -28,4 +28,4 @@ v0.1 Download Link: https://drive.google.com/file/d/1SC2q-t61r7lgrS6PzvWnYrcKHcF
 
 v0.1 여담: pyinstaller에서 matplotlib를 사용한 코드를 빌드하려고 하니 오류가 났다. 알고보니 파이썬에 설치되어있는 pathlib이란 녀석을 삭제해주면 문제가 없더라. 뭔가 충수꼬리같은 라이브러리 같다.
 
-v0.2 여담: numpy가 conda install 되었을 경우 별에 별 종속성 파일들을 다운로드하기 때문에 pyinstaller로 변환시 그만큼 dll파일이 늘어나서 용량이 커진다고 한다. 그래서 pyqt라는 이름의 새로운 가상환경을 만들고 numpy 및 다른 라이브러리들을 pip install 하고 exe 파일로 변환하니 280MB정도로 용량을 줄일 수 있었다. (변환시  upx라는 dll 압축 프로그램도 같이 사용했다.)
+v0.2 여담: numpy가 conda install 되었을 경우 별에 별 종속성 파일들을 다운로드하기 때문에 pyinstaller로 변환시 그만큼 dll파일이 늘어나서 용량이 커진다고 한다. 그래서 pyqt라는 이름의 새로운 가상환경을 만들고 numpy 및 다른 라이브러리들을 pip install 하고 exe 파일로 변환하니 280MB정도의 용량을 줄일 수 있었다. (변환시  upx라는 dll 압축 프로그램도 같이 사용했다.)
