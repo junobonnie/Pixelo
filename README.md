@@ -10,7 +10,7 @@
 v0.2 변경사항: 이미지 가로 최대 사이즈를 512pixel로 제한함으로써 큰 이미지에서 img2pixel 변환속도 증가.
                실행 파일 크기를 344MB에서 65MB로 줄임.
 
-v0.2 Download Link: http://a76f41d0e826.ap.ngrok.io/index.php/s/kiqAcLkL9dk7qwi/download/PIXELOv0.2.zip
+v0.2 Download Link: [http://a76f41d0e826.ap.ngrok.io/index.php/s/kiqAcLkL9dk7qwi/download/PIXELOv0.2.zip](https://github.com/junobonnie/Pixelo/releases/download/image/PIXELO.zip)
 
 v0.1 Download Link: https://drive.google.com/file/d/1SC2q-t61r7lgrS6PzvWnYrcKHcFRTqF4/view?usp=sharing
 
